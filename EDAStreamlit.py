@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 
 #Loading the data
 mycol = ['Product Progress','Logins','Start Date', 'Last Activity At','Days Lapsed','Months Lapsed']
-dfkaj = pd.read_csv('https://github.com/DataScience-Px/EDAPxStreamlit/blob/main/dfclean.csv', sep=';', encoding='utf-8', engine='python')
+dfkaj = pd.read_csv('https://github.com/DataScience-Px/EDAPxStreamlit/blob/main/dfclean.csv', sep=';', encoding='utf-8', engine='python', quoting=3)
 #Creating a dataframe
 dfkaj = pd.DataFrame(dfkaj)
 
