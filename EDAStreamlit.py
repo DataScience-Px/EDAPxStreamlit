@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 
 
 #Loading the data
-dfkaj = pd.read_csv("/Users/GenesisRojas/Documents/002. Work/Paradox/00-Work/ExploratoryDataAnalysis/DataProcessing/dfclean.csv")
+dfkaj = pd.read_csv("/dfclean.csv")
 #Creating a dataframe
 dfkaj = pd.DataFrame(dfkaj)
 
