@@ -9,7 +9,7 @@ import streamlit as st
 import plotly.graph_objects as go
 
 #Loading the data
-dfkaj = pd.read_csv('https://github.com/DataScience-Px/EDAPxStreamlit/blob/main/dfkaj_proc.csv', on_bad_lines='skip')
+dfkaj = pd.read_csv('https://github.com/DataScience-Px/EDAPxStreamlit/blob/main/dfkaj_proc.csv')
 #Creating a dataframe
 dfkaj = pd.DataFrame(dfkaj)
 
