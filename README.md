@@ -22,6 +22,6 @@ To access the deployed app, click the following link: [Paradox Company EDA App](
 
 The repository is organized as follows:
 
-- `app.py`: The main Streamlit app script containing the code for the interactive data exploration and visualization.
+- `EDAStreamlit.py`: The main Streamlit app script containing the code for the interactive data exploration and visualization.
 - `requirements.txt`: The list of Python dependencies required for running the Streamlit app.
 - `data/`: This directory contains the dataset files used for the analysis.
