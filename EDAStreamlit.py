@@ -9,7 +9,7 @@ import streamlit as st
 import plotly.graph_objects as go
 
 #Loading the data
-dfkaj = pd.read_csv(f'dfclean.csv')
+dfkaj = pd.read_csv(f'dfclean.csv', sep=';')
 #Creating a dataframe
 dfkaj = pd.DataFrame(dfkaj)
 
