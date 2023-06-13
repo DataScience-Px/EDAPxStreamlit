@@ -91,6 +91,8 @@ if sidebar == "Kajabi Progress Report":
     # Display the plot
     st.plotly_chart(fig)
 
+
+
     #Plot a third graph
     fig = go.Figure(data=go.Scatter(
     x=dfloginskaj['Logins'],
